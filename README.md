@@ -1,0 +1,2 @@
+# PlantsWebApp
+Vue based PWA
