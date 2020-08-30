@@ -1,8 +1,8 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-view />
-      <router-link to="/">Home</router-link> |
+    <router-view />
+    <div class="navbar">
+      <router-link to="/">Home</router-link>|
       <router-link to="/profile">Profile</router-link>
     </div>
   </div>
@@ -11,22 +11,30 @@
 <style lang="scss">
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(243, 243, 243);
+  height: 100vh;
+  width: 100%;
+}
+.navbar {
+  height: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+}
+.header {
+  height: 5%;
   text-align: center;
-  color: #2c3e50;
+  margin: 10px 0;
+}
+.header > h1 {
+  margin: auto;
 }
 
-#nav {
-  padding: 30px;
-
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
+body {
+  padding: 0;
+  margin: 0;
 }
 </style>

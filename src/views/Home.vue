@@ -1,32 +1,39 @@
 <template>
   <div class="Home">
-    <!-- <AICard/>
+    <AICard />
+    <PlantCard />
+    <NewPlantCard />
+    <!-- 
     { #each PlantsArr as plant }
       <PlantCard plantName="{plant.plantName}"/>
     { /each }
-    <NewPlantCard/> -->
+    <NewPlantCard/>-->
   </div>
 </template>
 
 <script>
-  // @ is an alias to /src
-  // import HelloWorld from "@/components/HelloWorld.vue";
+// @ is an alias to /src
+import AICard from "@/components/Home/AICard.vue";
+import PlantCard from "@/components/Home/PlantCard.vue";
+import NewPlantCard from "@/components/Home/NewPlantCard.vue";
 
-  export default {
-    name: "Home",
-    components: {
-      // HelloWorld
-    }
-  };
+export default {
+  name: "Home",
+  components: {
+    AICard,
+    PlantCard,
+    NewPlantCard
+  }
+};
 </script>
 
 <style lang="scss">
-  .Home {
-    margin: 0 auto;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 5%;
-	}
+.Home {
+  margin: 0 5%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 5%;
+}
 </style>
