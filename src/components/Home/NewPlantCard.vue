@@ -14,7 +14,7 @@ export default {};
   background-color: white;
   width: 80%;
   border-radius: 30px;
-  padding: 10px;
+  padding: 2% 4%;
   border: 3px dashed rgb(212, 212, 212);
 }
 </style>

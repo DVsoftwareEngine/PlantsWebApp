@@ -5,7 +5,7 @@
       <p>Dont forget to check last day of fertilizetion</p>
     </div>
     <div class="AICard-logo">
-      <img src="images/AI.png" alt="AI item" />
+      <img src="/img/AI.png" alt="AI item" />
     </div>
   </div>
 </template>
@@ -19,7 +19,7 @@ export default {};
   background-color: #dbfffb;
   width: 80%;
   border-radius: 30px;
-  padding: 10px;
+  padding: 2% 4%;
   margin-bottom: 2.5%;
   display: flex;
 }

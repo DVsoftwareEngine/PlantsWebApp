@@ -9,7 +9,7 @@ export default {};
       <p>Yep, plantName</p>
     </div>
     <div class="PlantCard-logo">
-      <!-- <img src="images/{plantName}Logo.png" alt="{plantName}"> -->
+      <img src="/img/CactusLogo.png" alt="{plantName}">
     </div>
   </div>
 </template>
@@ -19,7 +19,7 @@ export default {};
   background-color: white;
   width: 80%;
   border-radius: 30px;
-  padding: 10px;
+  padding: 2% 4%;
   margin-bottom: 2.5%;
   display: flex;
 }
